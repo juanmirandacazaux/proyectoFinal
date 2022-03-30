@@ -1,7 +1,4 @@
 # Proyecto Final
-A car rental site implemented with JavaScript
-
-Rent a car web
 
 Esta es mi primer página realizada con JavaScript.
 
