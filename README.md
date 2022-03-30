@@ -7,6 +7,7 @@ Es un sitio donde podes elegir fecha, hora y lugar para que se despleguen los au
 
 Tecnologías Utilizadas
 HTML
+
 CSS
 Javascript Vanilla
 jQuery
