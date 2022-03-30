@@ -1,0 +1,221 @@
+/* Fuentes */
+body *{
+font-family: 'Montserrat', sans-serif;
+}
+
+/* Nav bar */
+#navbarNavAltMarkup {
+    margin-left: 400px;
+
+}
+
+a.nav-link {
+    color: #000000;
+}
+
+
+/* Inicio */
+
+
+.tituloReservar {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 55px;
+    color: #087F99;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+/* Form  */
+
+.formularioInicial {
+    background-color: #EEEEEE;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.lugarDevolucion {
+    margin-top: 10px;
+}
+
+.fechaDevolucion {
+    margin-top: 10px;
+}
+
+#boton {
+    margin-top: 20px;
+    background-color: #FF630B;
+    border-radius: 10px;
+}
+
+/* Vehiculos Disponibles */
+
+.paginaAcceso {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.tituloVehiculosDisponibles {
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 55px;
+}
+
+.col-md-4 img,
+.col-md-4 button {
+    width: 100%;
+}
+
+.vehiculoBoton {
+    background: #EEEEEE;;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.vehiculoBoton .container {
+    padding: 25px;
+}
+
+#imagenAutos {
+    border-radius: 10px 10px 0px 0px;
+}
+
+#contenedorImagen {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#botonReserva {
+    background: #087F99;
+    border-radius: 0px 0px 12px 12px;
+}
+
+/* Checkout  */
+
+.tituloCarrito {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 65px;
+}
+
+
+#carrito {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.formNombre {
+    margin-bottom: 10px;
+}
+
+.formEmail {
+    margin-bottom: 10px;
+}
+
+
+.containerLista {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.imgCompra {
+    border-radius: 15px;
+}
+
+button.btn.btn-primary.volverInicio {
+    background-color: #087F99;
+    border-radius: 10px;
+    color: #EEEEEE;
+}
+
+#validarDatos {
+    background-color: #FF630B;
+    border-radius: 10px;
+    color: #EEEEEE;
+    width: 20%;
+}
+
+
+/* Pagina Confirmacion */
+
+#confirmacion {
+    background: #D5EEC5;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+
+#confirmacion p {
+    margin-bottom: 0;
+}
+
+/* Quienes Somos  */
+
+.nosotros {
+    text-align: center;
+}
+
+/* Nuestros Autos */
+
+.nuestraFlota {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contenedor{
+    min-height: 50vh;
+}
+
+
+/* Pagina CheckOut  */
+
+.datos input {
+    margin-bottom: 20px;
+}
+
+.clientInfo {
+    font-weight: bold;
+}
+
+.datos {
+    padding: 15px;
+}
+
+.ingresarInfo {
+    width: 85%;
+}
+
+#contenedorAutos {
+    padding: 20px;
+}
+
+#mostrarProductos {
+    background: #FF630B;
+    border-radius: 10px;
+    color: white;
+}
+
+#confirm {
+    text-align: center;
+    margin-top: 130px;
+}
+
+/* Footer  */
+
+.container-fluid.footer {
+    padding: 5px;
+    background-color: #EEEEEE;
+    margin-top: 70px;
+    
+}
+
+p.copyright {
+    margin-top: 15px;
+}
+
+

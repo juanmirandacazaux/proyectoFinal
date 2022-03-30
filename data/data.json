@@ -1,0 +1,138 @@
+[
+    {
+        "id" : "1",
+        "marca" : "zuzuki",
+        "modelo" : "swift",
+        "año" : "2019",
+        "precio" : 55,
+        "img" : "./img/suzukiSwift.png"
+    },
+
+    {
+        "id" : "2",
+        "marca" : "chevrolet",
+        "modelo" : "onix",
+        "año" : "2019",
+        "precio" : 47,
+        "img" : "./img/chevroletOnix.png"
+    },
+
+    {
+        "id" : "3",
+        "marca" : "fiat",
+        "modelo" : "uno",
+        "año" : "2018",
+        "precio" : 44,
+        "img" : "./img/fiatUno.png"
+    },
+
+    {
+        "id" : "4",
+        "marca" : "volkswagen",
+        "modelo" : "polo",
+        "año" : "2020",
+        "precio" : 60,
+        "img" : "./img/volkswagenPolo.png"
+    },
+
+    {
+        "id" : "5",
+        "marca" : "nissan",
+        "modelo" : "versa",
+        "año" : "2020",
+        "precio" : 68,
+        "img" : "./img/nissanVersa.png"
+    },
+
+    {
+        "id" : "6",
+        "marca" : "renault",
+        "modelo" : "sandero",
+        "año" : "2020",
+        "precio" : 65,
+        "img" : "./img/renaultSandero.png"
+    },
+
+    {
+        "id" : "7",
+        "marca" : "hyundai",
+        "modelo" : "hb20",
+        "año" : "2021",
+        "precio" : 80,
+        "img" : "./img/Hb20.png"
+    },
+
+    {
+        "id" : "8",
+        "marca" : "volkswagen",
+        "modelo" : "up",
+        "año" : "2019",
+        "precio" : 48,
+        "img" : "./img/volkswagenUp.png"
+    },
+
+    {
+        "id" : "9",
+        "marca" : "renault",
+        "modelo" : "kwid",
+        "año" : "2020",
+        "precio" : 50,
+        "img" : "./img/renaultKwid.png"
+    },
+
+    {
+        "id" : "10",
+        "marca" : "toyota",
+        "modelo" : "eitos",
+        "año" : "2020",
+        "precio" : 83,
+        "img" : "./img/toyotaEitos.png"
+    },
+
+    {
+        "id" : "11",
+        "marca" : "nissan",
+        "modelo" : "kicks",
+        "año" : "2019",
+        "precio" : 90,
+        "img" : "./img/nissanKicks.png"
+    },
+
+    {
+        "id" : "12",
+        "marca" : "citroen",
+        "modelo" : "c1",
+        "año" : "2018",
+        "precio" : 49,
+        "img" : "./img/citroenC1.png"
+    },
+
+    {
+        "id" : "13",
+        "marca" : "ford",
+        "modelo" : "focus",
+        "año" : "2019",
+        "precio" : 72,
+        "img" : "./img/fordFocus.png"
+    },
+
+    {
+        "id" : "14",
+        "marca" : "chevrolet",
+        "modelo" : "captiva",
+        "año" : "2020",
+        "precio" : 92,
+        "img" : "./img/chevroletCaptiva.png"
+    },
+
+    {
+        "id" : "15",
+        "marca" : "ford",
+        "modelo" : "fiesta",
+        "año" : "2020",
+        "precio" : 56,
+        "img" : "./img/fordFiesta.png"
+    }
+
+
+]

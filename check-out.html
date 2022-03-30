@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>checkout</title>
+        
+          <!-- CSS  -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <!-- Integramos fuentes  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    </head>
+
+
+<body>
+
+    <!-- Nav Bar -->
+
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg justify-content-between">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo Fast">
+                </a>
+
+
+
+                <div class="navTop" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <a class="mayuscula nav-link" href="nuestrosAutos.html">Nuestros autos</a>
+                        <a class="mayuscula nav-link" href="index.html/#about">Quienes somos</a>
+                        <a class="mayuscula nav-link textoNavBar" href="">FAQs</a>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carrito de compra -->
+
+    <h1 class="tituloReservar">CONFIRMAR RESERVA</h1>
+
+<div class="row">
+    <div class="col-12 col-md-7">
+        <form>
+            <div class="form-group datos">
+                <label for="exampleFormControlInput1" class="clientInfo">Nombre y apellido</label>
+                <input class="form-control ingresarInfo" required id="datoNombre" type="text"
+                    placeholder="Nombre y apellido">
+
+                <label for="exampleFormControlInput1" class="clientInfo">Email address</label>
+                <input type="email" class="form-control ingresarInfo" required id="datoEmail"
+                    placeholder="name@example.com">
+
+                <label for="formGroupExampleInput" class="clientInfo">Datos de tarjeta</label>
+                <input type="number" class="form-control ingresarInfo" required id="datoTarjeta"
+                    placeholder="XXXX-XXXX-XXXX-XXXX">
+
+
+                    <button class="btn btn-primary volverInicio"><a href="index.html" ></a>Cancelar</a></button>
+                    <button id="validarDatos" type="submit" class="btn btn-primary"> Alquilar</button>    
+            </div>
+
+            
+        </form>
+</div>
+
+
+<div class="col-6 col-md-4">
+    <div class="productoSeleccionados" id="productoSeleccionados">
+        <!-- acá creamos la card con los datos seleccionados previamente -->
+
+        
+    </div>
+
+</div>
+
+
+<div class="alert alert-success" style="display:none" id="confirm" role="alert">
+    Felicitaciones!!! <br>
+    Tu reserva ha sido confirmada 🚗<br>
+    GRACIAS POR ALQUILAR EN FAST RENT A CAR
+  </div>
+
+
+  
+
+
+
+
+
+    <!-- Footer -->
+
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <p class="copyright">© 2021 - Fast rent a car</p>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- JS + JQuery + JSON -->
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="check-out.js" type="module"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     
+
+
+</body>
+
+</html>
