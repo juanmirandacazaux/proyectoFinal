@@ -1,19 +1,38 @@
-# Proyecto Final
+# 🚗 Car Rental Booking Page
 
-Esta es mi primer página realizada con JavaScript.
+This is my **first JavaScript project** — a web application where users can choose a **date**, **time**, and **location** to see the available cars for rental.  
 
-Es un sitio donde podes elegir fecha, hora y lugar para que se despleguen los autos disponibles para alquilar.
+It’s designed to be simple, interactive, and user-friendly, showcasing my skills in front-end development.
 
-Tecnologías Utilizadas:
+---
 
-HTML
+## 🛠️ Technologies Used
 
-CSS
+- **HTML5** — structure and content  
+- **CSS3** — styling and layout  
+- **JavaScript (Vanilla)** — interactive functionality  
+- **jQuery** — DOM manipulation and event handling  
+- **SweetAlert2** — beautiful alert pop-ups  
+- **Bootstrap** — responsive design and layout  
 
-Javascript Vanilla
+---
 
-jQuery
+## ⚡ Features
 
-Sweetalert 2
+- Select **date**, **time**, and **location**  
+- Display available cars dynamically  
+- Interactive alerts and notifications with SweetAlert2  
+- Fully responsive design with Bootstrap  
 
-Bootstrap
+---
+
+## 📁 Folder Structure
+
+car-rental/
+│
+├── index.html # Main booking page
+├── style.css # Styles for the project
+├── script.js # JavaScript functionality
+├── jquery.min.js # jQuery library
+├── sweetalert2.js # SweetAlert2 library
+└── assets/ # Images and other resources
